@@ -1,4 +1,3 @@
-
 import { useEffect, useRef, useState } from 'react';
 import listingData from '../data/listing.json';
 import { Link, useParams } from 'react-router-dom';

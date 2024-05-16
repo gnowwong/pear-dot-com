@@ -10,22 +10,27 @@ function Header({ menus }: { menus: Directories | undefined }) {
                     <ul className="flex">
                         {menus?.map((menu, menuIdx) => {
                             return (
-                                <li key={"group" + menuIdx} className="group cursor-pointer m-4 z-10">
+                                <li key={"group" + menuIdx} className="group/directory cursor-pointer m-4 z-10">
                                     <span className={`text-xs font-normal`}>{menu.directory}</span>
-                                    <div className="hidden group-hover:block transition-timing-function absolute w-full overflow-hidden inset-x-0 bg-white min-h-screen">
-                                        <div className={`min-h-52 backdrop-blur-sm bg-white/30 grid gap-3 grid-cols-3 my-5 ${GENERAL_MARGIN}`}>
-                                            {menu.sections.map((section, sectionIdx) => (
-                                                <div key={"menu" + sectionIdx}>
-                                                    <span className="text-xs">{section.directory}</span>
-                                                    <div>
-                                                        {section.sections?.map((title, menuIndex) =>
+                                    <div className="hidden group-hover/directory:block transition-timing-function absolute w-full overflow-hidden inset-x-0">
+                                        <div className="relative">
+                                            <div className={`min-h-52 w-full bg-white py-4`}>
+                                                <div className={`grid gap-3 grid-cols-3 my-5 ${GENERAL_MARGIN}`}>
+                                                    {menu.sections.map((section, sectionIdx) => (
+                                                        <div key={"menu" + sectionIdx}>
+                                                            <span className="text-xs">{section.directory}</span>
                                                             <div>
-                                                                <span className={`${sectionIdx === 0 ? "font-bold text-lg" : "text-md"}`} key={"submenu" + menuIndex}>{title}</span>
-                                                            </div>)
-                                                        }
-                                                    </div>
+                                                                {section.sections?.map((title, menuIndex) =>
+                                                                    <div>
+                                                                        <span className={`${sectionIdx === 0 ? "font-bold text-lg" : "text-md"}`} key={"submenu" + menuIndex}>{title}</span>
+                                                                    </div>)
+                                                                }
+                                                            </div>
+                                                        </div>
+                                                    ))}
                                                 </div>
-                                            ))}
+                                            </div>
+                                            <div className="h-screen w-full top-0 bg-gray-800 opacity-30 top-14 backdrop-blur-md backdrop-brightness-150 blur-sm" />
                                         </div>
                                     </div>
                                 </li>
@@ -97,7 +102,7 @@ function Header({ menus }: { menus: Directories | undefined }) {
                 </div>
             </div>
             <div id="interest-ribbon" className="bg-slate-50 p-4 border-t border-slate-900/10">
-                <p className={`${GENERAL_MARGIN} text-zinc-500 md:flex md:justify-center text-center`}>Pay 0% interest for up to 24 months. Terms apply.◊◊ <a className="text-sky-500"><br className="block md:hidden" />Learn more {">"}</a></p>
+                <p className={`${GENERAL_MARGIN} text-zinc-500 md:flex md:justify-center text-center`}>Pay 0% interest for up to 24 months. Terms apply.◊◊ <a className="text-blue-500"><br className="block md:hidden" />Learn more {">"}</a></p>
             </div>
         </nav>
     )

@@ -1,5 +1,6 @@
 [
     {
+        "inStock": true,
         "key": "14-inch-space-grey-apple-m3-chip-with-8-core-cpu-and-10-core-gpu-8gb-memory-512gb",
         "size": "14-inch",
         "chip": "M3",
@@ -35,9 +36,56 @@
                 "type": "monthly-price",
                 "price": "RM 312.46"
             }
+        ],
+        "memory": [
+            {
+                "label": "8GB unified memory",
+                "price": 0,
+                "inStock": true
+            },
+            {
+                "label": "16GB unified memory",
+                "price": 800,
+                "inStock": true
+            },
+            {
+                "label": "24GB unified memory",
+                "price": 1600,
+                "inStock": true
+            }
+        ],
+        "powerAdapter": [
+            {
+                "label": "70W USB-C Power Adapter",
+                "price": 0,
+                "inStock": true
+            },
+            {
+                "label": "96W USB-C Power Adapter",
+                "price": 80,
+                "inStock": true
+            }
+        ],
+        "storage": [
+            {
+                "label": "512GB SSD storage",
+                "price": 0,
+                "inStock": true
+            },
+            {
+                "label": "1TB SSD storage",
+                "price": 800,
+                "inStock": true
+            },
+            {
+                "label": "2TGB unified memory",
+                "price": 2400,
+                "inStock": true
+            }
         ]
     },
     {
+        "inStock": true,
         "key": "14-inch-space-grey-apple-m3-chip-with-8-core-cpu-and-10-core-gpu-8gb-memory-1tb",
         "size": "14-inch",
         "chip": "M3",
@@ -73,9 +121,56 @@
                 "type": "monthly-price",
                 "price": "RM 345.79"
             }
+        ],
+        "memory": [
+            {
+                "label": "8GB unified memory",
+                "price": 0,
+                "inStock": true
+            },
+            {
+                "label": "16GB unified memory",
+                "price": 800,
+                "inStock": true
+            },
+            {
+                "label": "24GB unified memory",
+                "price": 1600,
+                "inStock": true
+            }
+        ],
+        "powerAdapter": [
+            {
+                "label": "70W USB-C Power Adapter",
+                "price": 0,
+                "inStock": true
+            },
+            {
+                "label": "96W USB-C Power Adapter",
+                "price": 80,
+                "inStock": true
+            }
+        ],
+        "storage": [
+            {
+                "label": "512GB SSD storage",
+                "price": 0,
+                "inStock": true
+            },
+            {
+                "label": "1TB SSD storage",
+                "price": 800,
+                "inStock": true
+            },
+            {
+                "label": "2TGB unified memory",
+                "price": 2400,
+                "inStock": true
+            }
         ]
     },
     {
+        "inStock": true,
         "key": "14-inch-space-grey-apple-m3-chip-with-8-core-cpu-and-10-core-gpu-16gb-memory-1tb",
         "size": "14-inch",
         "chip": "M3",
@@ -111,9 +206,56 @@
                 "type": "monthly-price",
                 "price": "RM 379.13"
             }
+        ],
+        "memory": [
+            {
+                "label": "8GB unified memory",
+                "price": 0,
+                "inStock": true
+            },
+            {
+                "label": "16GB unified memory",
+                "price": 800,
+                "inStock": true
+            },
+            {
+                "label": "24GB unified memory",
+                "price": 1600,
+                "inStock": true
+            }
+        ],
+        "powerAdapter": [
+            {
+                "label": "70W USB-C Power Adapter",
+                "price": 0,
+                "inStock": true
+            },
+            {
+                "label": "96W USB-C Power Adapter",
+                "price": 80,
+                "inStock": true
+            }
+        ],
+        "storage": [
+            {
+                "label": "512GB SSD storage",
+                "price": 0,
+                "inStock": true
+            },
+            {
+                "label": "1TB SSD storage",
+                "price": 800,
+                "inStock": true
+            },
+            {
+                "label": "2TGB unified memory",
+                "price": 2400,
+                "inStock": true
+            }
         ]
     },
     {
+        "inStock": true,
         "key": "14-inch-space-black-apple-m3-pro-with-11-core-cpu-and-14-core-gpu-18gb-memory-512gb",
         "size": "14-inch",
         "chip": "M3 Pro",
@@ -149,9 +291,98 @@
                 "type": "monthly-price",
                 "price": "RM 416.63"
             }
+        ],
+        "chipset": [
+            {
+                "label": "Apple M3 Pro chip with 11‑core CPU, 14‑core GPU and 16‑core Neural Engine",
+                "price": 0,
+                "inStock": true
+            },
+            {
+                "label": "Apple M3 Pro chip with 12‑core CPU, 18‑core GPU and 16‑core Neural Engine",
+                "price": 800,
+                "inStock": true
+            },
+            {
+                "label": "Apple M3 Max chip with 14‑core CPU, 30‑core GPU and 16‑core Neural Engine",
+                "price": 2400,
+                "inStock": true
+            },
+            {
+                "label": "Apple M3 Max chip with 16‑core CPU, 40‑core GPU and 16‑core Neural Engine",
+                "price": 3600,
+                "inStock": true
+            }
+        ],
+        "memory": [
+            {
+                "label": "18GB unified memory",
+                "price": 0,
+                "inStock": true
+            },
+            {
+                "label": "36GB unified memory",
+                "price": 1600,
+                "inStock": true
+            },
+            {
+                "label": "48GB unified memory",
+                "price": 2400,
+                "inStock": false
+            },
+            {
+                "label": "64GB unified memory",
+                "price": 3200,
+                "inStock": false
+            },
+            {
+                "label": "96GB unified memory",
+                "price": 4800,
+                "inStock": false
+            },
+            {
+                "label": "128GB unified memory",
+                "price": 6400,
+                "inStock": false
+            }
+        ],
+        "powerAdapter": [
+            {
+                "label": "70W USB-C Power Adapter",
+                "price": 0,
+                "inStock": true
+            },
+            {
+                "label": "96W USB-C Power Adapter",
+                "price": 80,
+                "inStock": true
+            }
+        ],
+        "storage": [
+            {
+                "label": "512GB SSD storage",
+                "price": 0,
+                "inStock": true
+            },
+            {
+                "label": "1TB SSD storage",
+                "price": 800,
+                "inStock": true
+            },
+            {
+                "label": "2TGB unified memory",
+                "price": 2400,
+                "inStock": true
+            },
+            {
+                "label": "4TGB unified memory",
+                "price": 4800,
+                "inStock": true
+            }
         ]
     },
     {
+        "inStock": true,
         "key": "14-inch-space-black-apple-m3-pro-with-12-core-cpu-and-18-core-gpu-18gb-memory-1tb",
         "size": "14-inch",
         "chip": "M3 Pro",
@@ -187,9 +418,88 @@
                 "type": "monthly-price",
                 "price": "RM 483.29"
             }
+        ],
+        "chipset": [
+            {
+                "label": "Apple M3 Pro chip with 12‑core CPU, 18‑core GPU and 16‑core Neural Engine",
+                "price": 0,
+                "inStock": true
+            },
+            {
+                "label": "Apple M3 Max chip with 14‑core CPU, 30‑core GPU and 16‑core Neural Engine",
+                "price": 1600,
+                "inStock": true
+            },
+            {
+                "label": "Apple M3 Max chip with 16‑core CPU, 40‑core GPU and 16‑core Neural Engine",
+                "price": 2800,
+                "inStock": true
+            }
+        ],
+        "memory": [
+            {
+                "label": "18GB unified memory",
+                "price": 0,
+                "inStock": true
+            },
+            {
+                "label": "36GB unified memory",
+                "price": 1600,
+                "inStock": true
+            },
+            {
+                "label": "48GB unified memory",
+                "price": 2400,
+                "inStock": false
+            },
+            {
+                "label": "64GB unified memory",
+                "price": 3200,
+                "inStock": false
+            },
+            {
+                "label": "96GB unified memory",
+                "price": 4800,
+                "inStock": false
+            },
+            {
+                "label": "128GB unified memory",
+                "price": 6400,
+                "inStock": false
+            }
+        ],
+        "powerAdapter": [
+            {
+                "label": "70W USB-C Power Adapter",
+                "price": 0,
+                "inStock": true
+            },
+            {
+                "label": "96W USB-C Power Adapter",
+                "price": 80,
+                "inStock": true
+            }
+        ],
+        "storage": [
+            {
+                "label": "1TB SSD storage",
+                "price": 0,
+                "inStock": true
+            },
+            {
+                "label": "2TGB unified memory",
+                "price": 1600,
+                "inStock": true
+            },
+            {
+                "label": "4TGB unified memory",
+                "price": 8800,
+                "inStock": true
+            }
         ]
     },
     {
+        "inStock": true,
         "key": "14-inch-space-black-apple-m3-max-with-14-core-cpu-and-30-core-gpu-36gb-memory-1tb",
         "size": "14-inch",
         "chip": "M3 Pro",
@@ -225,9 +535,71 @@
                 "type": "monthly-price",
                 "price": "RM 616.63"
             }
+        ],
+        "chipset": [
+            {
+                "label": "Apple M3 Max chip with 14‑core CPU, 30‑core GPU and 16‑core Neural Engine",
+                "price": 0,
+                "inStock": true
+            },
+            {
+                "label": "Apple M3 Max chip with 16‑core CPU, 40‑core GPU and 16‑core Neural Engine",
+                "price": 1200,
+                "inStock": true
+            }
+        ],
+        "memory": [
+            {
+                "label": "36GB unified memory",
+                "price": 0,
+                "inStock": true
+            },
+            {
+                "label": "48GB unified memory",
+                "price": 800,
+                "inStock": false
+            },
+            {
+                "label": "64GB unified memory",
+                "price": 1600,
+                "inStock": false
+            },
+            {
+                "label": "96GB unified memory",
+                "price": 3200,
+                "inStock": true
+            },
+            {
+                "label": "128GB unified memory",
+                "price": 4800,
+                "inStock": false
+            }
+        ],
+        "storage": [
+            {
+                "label": "1TB SSD storage",
+                "price": 0,
+                "inStock": true
+            },
+            {
+                "label": "2TGB unified memory",
+                "price": 1600,
+                "inStock": true
+            },
+            {
+                "label": "4TGB unified memory",
+                "price": 400,
+                "inStock": true
+            },
+            {
+                "label": "8TGB unified memory",
+                "price": 8800,
+                "inStock": true
+            }
         ]
     },
     {
+        "inStock": true,
         "key": "16-inch-space-black-apple-m3-pro-with-12-core-cpu-and-18-core-gpu-18gb-memory-512gb",
         "size": "16-inch",
         "chip": "M3 Pro",
@@ -263,9 +635,86 @@
                 "type": "monthly-price",
                 "price": "RM 499.96"
             }
+        ],
+        "chipset": [
+            {
+                "label": "Apple M3 Pro chip with 12‑core CPU, 18‑core GPU and 16‑core Neural Engine",
+                "price": 0,
+                "inStock": true
+            },
+            {
+                "label": "Apple M3 Max chip with 14‑core CPU, 30‑core GPU and 16‑core Neural Engine",
+                "price": 1600,
+                "inStock": true
+            },
+            {
+                "label": "Apple M3 Max chip with 16‑core CPU, 40‑core GPU and 16‑core Neural Engine",
+                "price": 2800,
+                "inStock": true
+            }
+        ],
+        "memory": [
+            {
+                "label": "18GB unified memory",
+                "price": 0,
+                "inStock": true
+            },
+            {
+                "label": "36GB unified memory",
+                "price": 1600,
+                "inStock": true
+            },
+            {
+                "label": "48GB unified memory",
+                "price": 2400,
+                "inStock": false
+            },
+            {
+                "label": "64GB unified memory",
+                "price": 3200,
+                "inStock": false
+            },
+            {
+                "label": "96GB unified memory",
+                "price": 4800,
+                "inStock": false
+            },
+            {
+                "label": "128GB unified memory",
+                "price": 6400,
+                "inStock": false
+            }
+        ],
+        "storage": [
+            {
+                "label": "512GB SSD storage",
+                "price": 0,
+                "inStock": true
+            },
+            {
+                "label": "1TB SSD storage",
+                "price": 800,
+                "inStock": true
+            },
+            {
+                "label": "2TGB unified memory",
+                "price": 2400,
+                "inStock": true
+            },
+            {
+                "label": "4TGB unified memory",
+                "price": 4800,
+                "inStock": true
+            },
+            {
+                "label": "8TGB unified memory",
+                "price": 9600,
+                "inStock": false
+            }
         ]
     },
     {
+        "inStock": true,
         "key": "16-inch-space-black-apple-m3-pro-with-12-core-cpu-and-18-core-gpu-36gb-memory-512gb",
         "size": "16-inch",
         "chip": "M3 Pro",
@@ -301,9 +750,81 @@
                 "type": "monthly-price",
                 "price": "RM 566.63"
             }
+        ],
+        "chipset": [
+            {
+                "label": "Apple M3 Pro chip with 12‑core CPU, 18‑core GPU and 16‑core Neural Engine",
+                "price": 0,
+                "inStock": true
+            },
+            {
+                "label": "Apple M3 Max chip with 14‑core CPU, 30‑core GPU and 16‑core Neural Engine",
+                "price": 1600,
+                "inStock": true
+            },
+            {
+                "label": "Apple M3 Max chip with 16‑core CPU, 40‑core GPU and 16‑core Neural Engine",
+                "price": 2800,
+                "inStock": true
+            }
+        ],
+        "memory": [
+            {
+                "label": "36GB unified memory",
+                "price": 0,
+                "inStock": true
+            },
+            {
+                "label": "48GB unified memory",
+                "price": 800,
+                "inStock": false
+            },
+            {
+                "label": "64GB unified memory",
+                "price": 1600,
+                "inStock": false
+            },
+            {
+                "label": "96GB unified memory",
+                "price": 3200,
+                "inStock": false
+            },
+            {
+                "label": "128GB unified memory",
+                "price": 4800,
+                "inStock": false
+            }
+        ],
+        "storage": [
+            {
+                "label": "512GB SSD storage",
+                "price": 0,
+                "inStock": true
+            },
+            {
+                "label": "1TB SSD storage",
+                "price": 800,
+                "inStock": true
+            },
+            {
+                "label": "2TGB unified memory",
+                "price": 2400,
+                "inStock": true
+            },
+            {
+                "label": "4TGB unified memory",
+                "price": 4800,
+                "inStock": true
+            },
+            {
+                "label": "8TGB unified memory",
+                "price": 9600,
+                "inStock": false
+            }
         ]
     },
     {
+        "inStock": true,
         "key": "16-inch-space-black-apple-m3-max-with-14-core-cpu-and-30-core-gpu-36gb-memory-1tb",
         "size": "16-inch",
         "chip": "M3 Max",
@@ -339,9 +860,71 @@
                 "type": "monthly-price",
                 "price": "RM 666.63"
             }
+        ],
+        "chipset": [
+            {
+                "label": "Apple M3 Max chip with 14‑core CPU, 30‑core GPU and 16‑core Neural Engine",
+                "price": 0,
+                "inStock": true
+            },
+            {
+                "label": "Apple M3 Max chip with 16‑core CPU, 40‑core GPU and 16‑core Neural Engine",
+                "price": 1200,
+                "inStock": true
+            }
+        ],
+        "memory": [
+            {
+                "label": "36GB unified memory",
+                "price": 0,
+                "inStock": true
+            },
+            {
+                "label": "48GB unified memory",
+                "price": 800,
+                "inStock": false
+            },
+            {
+                "label": "64GB unified memory",
+                "price": 1600,
+                "inStock": false
+            },
+            {
+                "label": "96GB unified memory",
+                "price": 3200,
+                "inStock": true
+            },
+            {
+                "label": "128GB unified memory",
+                "price": 4800,
+                "inStock": false
+            }
+        ],
+        "storage": [
+            {
+                "label": "1TB SSD storage",
+                "price": 0,
+                "inStock": true
+            },
+            {
+                "label": "2TGB unified memory",
+                "price": 1600,
+                "inStock": true
+            },
+            {
+                "label": "4TGB unified memory",
+                "price": 4000,
+                "inStock": true
+            },
+            {
+                "label": "8TGB unified memory",
+                "price": 8800,
+                "inStock": false
+            }
         ]
     },
     {
+        "inStock": true,
         "key": "16-inch-space-black-apple-m3-max-with-16-core-cpu-and-40-core-gpu-48gb-memory-1tb",
         "size": "16-inch",
         "chip": "M3 Max",
@@ -376,6 +959,45 @@
             {
                 "type": "monthly-price",
                 "price": "RM 749.96"
+            }
+        ],
+        "memory": [
+            {
+                "label": "48GB unified memory",
+                "price": 0,
+                "inStock": false
+            },
+            {
+                "label": "64GB unified memory",
+                "price": 800,
+                "inStock": true
+            },
+            {
+                "label": "128GB unified memory",
+                "price": 4000,
+                "inStock": false
+            }
+        ],
+        "storage": [
+            {
+                "label": "1TB SSD storage",
+                "price": 0,
+                "inStock": true
+            },
+            {
+                "label": "2TGB unified memory",
+                "price": 1600,
+                "inStock": true
+            },
+            {
+                "label": "4TGB unified memory",
+                "price": 4000,
+                "inStock": true
+            },
+            {
+                "label": "8TGB unified memory",
+                "price": 8800,
+                "inStock": false
             }
         ]
     }

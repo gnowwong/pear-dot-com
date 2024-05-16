@@ -10,7 +10,14 @@ export interface IProductVariation {
 
 }
 
+export interface IProductVariance {
+    label: string;
+    price: number;
+    inStock: boolean;
+}
+
 export interface IProductListing {
+    inStock: boolean;
     key: string;
     size: string;
     chip: string;
@@ -18,6 +25,10 @@ export interface IProductListing {
     productbundle: string[];
     specs: string[];
     price: IProductPrice[];
+    memory?: IProductVariance[];
+    storage?: IProductVariance[];
+    powerAdapter?: IProductVariance[];
+    chipset?: IProductVariance[];
 }
 
 export type IProductListings = IProductListing[];

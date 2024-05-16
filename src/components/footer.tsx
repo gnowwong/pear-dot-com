@@ -4,19 +4,23 @@ import listingFootNoteData from '../data/listing-footnote.json';
 import productFootNoteData from '../data/product-footnote.json';
 import { useEffect, useState } from "react";
 import { GENERAL_MARGIN } from "../constant/them.style";
+import listingData from '../data/listing.json';
 
 function Footer({ sitemap }: { sitemap: SiteMapDirectory[] | undefined }) {
     const initialBreadcrumb = ["Mac", "MacBook Pro", "Buy MacBook Pro"];
     const [breadcrumb, setbreadcrumb] = useState(initialBreadcrumb);
     const [footNotes, setFootNotes] = useState(listingFootNoteData);
     const [expandedAccordionIndex, setExpandedAccordionIndex] = useState(-1);
-    let { inch } = useParams();
+    let { inch, name } = useParams();
+    const product = listingData.find(product => product.key === name);
 
     useEffect(() => {
         if (!!inch) {
             setbreadcrumb(initialBreadcrumb);
             setFootNotes(listingFootNoteData);
-        } else {
+        }
+
+        if (!!name) {
             setbreadcrumb([...initialBreadcrumb, "Customise MacBook Pro"]);
             setFootNotes(productFootNoteData);
         }
@@ -47,8 +51,7 @@ function Footer({ sitemap }: { sitemap: SiteMapDirectory[] | undefined }) {
     }
 
     return (
-        <footer className="bg-slate-50">
-            <section></section>
+        <footer className={`${product?.inStock ? "pb-[80px]" : ""} bg-slate-50`}>
             <section className={`border-b border-slate-900/10 ${GENERAL_MARGIN} font-normal text-xs text-zinc-500 leading-6`}>{footNotes.map((note, index) => (<p key={"note" + index} className="text-sm p-2">{note}</p>))}</section>
             <section className={`${GENERAL_MARGIN}`}>{renderBreadcrumb()}</section>
             <section className={`${GENERAL_MARGIN} grid grid-cols-1 md:grid-cols-5 grid-flow-column`}>{sitemap?.map((sm, key) =>
@@ -85,8 +88,8 @@ function Footer({ sitemap }: { sitemap: SiteMapDirectory[] | undefined }) {
                     </div>
                 </div>
             </>))}</section>
-            <p className={`${GENERAL_MARGIN} py-4 text-sm text-zinc-500 leading-6`}>More ways to shop: <a className="text-sky-500 underline underline-offset-4">Find a retailer</a> near you. Or call 1800-80-6419</p>
-            <div className={`${GENERAL_MARGIN} pt-10 pb-28 border-spacing-2 border-t border-slate-200 sm:flex justify-between text-slate-500 flex`}>
+            <p className={`${GENERAL_MARGIN} py-4 text-sm text-zinc-500 leading-6`}>More ways to shop: <a className="text-blue-500 underline underline-offset-4">Find a retailer</a> near you. Or call 1800-80-6419</p>
+            <div className={`${GENERAL_MARGIN} pt-5 lg:pt-10 lg:pb-28 border-spacing-2 border-t border-slate-200 sm:flex justify-between text-slate-500 flex flex-col lg:flex-row`}>
                 <p className="text-sm">Copyright © 2024 Apple Inc. All rights reserved.</p>
                 <p className="sm:ml-4 sm:pl-4 sm:border-l sm:border-slate-200 text-sm">
                     <a className="hover:text-slate-900 dark:hover:text-slate-400" href="/brand">Privacy Policy</a>
