@@ -1,8 +1,7 @@
 # Assignment #1
 
-https://angela-pear.netlify.app/
-
 Assigment one is deployed to the link as followed:
+https://angela-pear.netlify.app/
 
    ## Listing
    - please click on the breadcrumb at the bottom
