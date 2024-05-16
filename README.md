@@ -2,8 +2,13 @@
 
 Assigment one is deployed to the link as followed:
 
-- [listing page](https://angela-pear.netlify.app/macbook-pro/14-inch)
-- [selection page](https://angela-pear.netlify.app/macbook-pro/select/14-inch-space-black-apple-m3-pro-with-12-core-cpu-and-18-core-gpu-18gb-memory-1tb)
+   ## Listing
+   - please click on the breadcrumb at the bottom
+   - ![alt text](image.png)
+
+   ## Selection
+   - please click any of the products
+   - ![alt text](image-1.png)
 
 # Assignment #2
 
