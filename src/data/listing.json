@@ -1,0 +1,382 @@
+[
+    {
+        "key": "14-inch-space-grey-apple-m3-chip-with-8-core-cpu-and-10-core-gpu-8gb-memory-512gb",
+        "size": "14-inch",
+        "chip": "M3",
+        "variation": [
+            {
+                "colour": "Space Grey",
+                "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-spacegray-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830200"
+            },
+            {
+                "colour": "Silver",
+                "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-silver-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830269"
+            }
+        ],
+        "productbundle": [
+            "8-core CPU",
+            "10-core GPU",
+            "8GB Unified Memory",
+            "512GB SSD Storage¹"
+        ],
+        "specs": [
+            "14-inch Liquid Retina XDR display²",
+            "Two Thunderbolt / USB 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
+            "Magic Keyboard with Touch ID",
+            "Force Touch trackpad",
+            "70W USB-C Power Adapter"
+        ],
+        "price": [
+            {
+                "type": "full-price",
+                "price": "RM 7,499.00"
+            },
+            {
+                "type": "monthly-price",
+                "price": "RM 312.46"
+            }
+        ]
+    },
+    {
+        "key": "14-inch-space-grey-apple-m3-chip-with-8-core-cpu-and-10-core-gpu-8gb-memory-1tb",
+        "size": "14-inch",
+        "chip": "M3",
+        "variation": [
+            {
+                "colour": "Space Grey",
+                "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-spacegray-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830200"
+            },
+            {
+                "colour": "Silver",
+                "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-silver-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830269"
+            }
+        ],
+        "productbundle": [
+            "8-core CPU",
+            "10-core GPU",
+            "8GB Unified Memory",
+            "1TB SSD Storage¹"
+        ],
+        "specs": [
+            "14-inch Liquid Retina XDR display²",
+            "Two Thunderbolt / USB 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
+            "Magic Keyboard with Touch ID",
+            "Force Touch trackpad",
+            "70W USB-C Power Adapter"
+        ],
+        "price": [
+            {
+                "type": "full-price",
+                "price": "RM 8,299.00"
+            },
+            {
+                "type": "monthly-price",
+                "price": "RM 345.79"
+            }
+        ]
+    },
+    {
+        "key": "14-inch-space-grey-apple-m3-chip-with-8-core-cpu-and-10-core-gpu-16gb-memory-1tb",
+        "size": "14-inch",
+        "chip": "M3",
+        "variation": [
+            {
+                "colour": "Space Grey",
+                "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-spacegray-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830200"
+            },
+            {
+                "colour": "Silver",
+                "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-silver-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830269"
+            }
+        ],
+        "productbundle": [
+            "8-core CPU",
+            "10-core GPU",
+            "16GB Unified Memory",
+            "1TB SSD Storage¹"
+        ],
+        "specs": [
+            "14-inch Liquid Retina XDR display²",
+            "Two Thunderbolt / USB 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
+            "Magic Keyboard with Touch ID",
+            "Force Touch trackpad",
+            "70W USB-C Power Adapter"
+        ],
+        "price": [
+            {
+                "type": "full-price",
+                "price": "RM 9,099.00"
+            },
+            {
+                "type": "monthly-price",
+                "price": "RM 379.13"
+            }
+        ]
+    },
+    {
+        "key": "14-inch-space-black-apple-m3-pro-with-11-core-cpu-and-14-core-gpu-18gb-memory-512gb",
+        "size": "14-inch",
+        "chip": "M3 Pro",
+        "variation": [
+            {
+                "colour": "Space Grey",
+                "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-spacegray-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830200"
+            },
+            {
+                "colour": "Silver",
+                "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-silver-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830269"
+            }
+        ],
+        "productbundle": [
+            "11-core CPU",
+            "14-core GPU",
+            "18GB Unified Memory",
+            "512GB SSD Storage¹"
+        ],
+        "specs": [
+            "14-inch Liquid Retina XDR display²",
+            "Two Thunderbolt / USB 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
+            "Magic Keyboard with Touch ID",
+            "Force Touch trackpad",
+            "70W USB-C Power Adapter"
+        ],
+        "price": [
+            {
+                "type": "full-price",
+                "price": "RM 9,999.00"
+            },
+            {
+                "type": "monthly-price",
+                "price": "RM 416.63"
+            }
+        ]
+    },
+    {
+        "key": "14-inch-space-black-apple-m3-pro-with-12-core-cpu-and-18-core-gpu-18gb-memory-1tb",
+        "size": "14-inch",
+        "chip": "M3 Pro",
+        "variation": [
+            {
+                "colour": "Space Grey",
+                "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-spacegray-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830200"
+            },
+            {
+                "colour": "Silver",
+                "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-silver-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830269"
+            }
+        ],
+        "productbundle": [
+            "12-core CPU",
+            "18-core GPU",
+            "18GB Unified Memory",
+            "1TB SSD Storage¹"
+        ],
+        "specs": [
+            "14-inch Liquid Retina XDR display²",
+            "Two Thunderbolt / USB 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
+            "Magic Keyboard with Touch ID",
+            "Force Touch trackpad",
+            "70W USB-C Power Adapter"
+        ],
+        "price": [
+            {
+                "type": "full-price",
+                "price": "RM 11,599.00"
+            },
+            {
+                "type": "monthly-price",
+                "price": "RM 483.29"
+            }
+        ]
+    },
+    {
+        "key": "14-inch-space-black-apple-m3-max-with-14-core-cpu-and-30-core-gpu-36gb-memory-1tb",
+        "size": "14-inch",
+        "chip": "M3 Pro",
+        "variation": [
+            {
+                "colour": "Space Grey",
+                "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-spacegray-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830200"
+            },
+            {
+                "colour": "Silver",
+                "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-silver-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830269"
+            }
+        ],
+        "productbundle": [
+            "14-core CPU",
+            "30-core GPU",
+            "36GB Unified Memory",
+            "1TB SSD Storage¹"
+        ],
+        "specs": [
+            "14-inch Liquid Retina XDR display²",
+            "Two Thunderbolt / USB 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
+            "Magic Keyboard with Touch ID",
+            "Force Touch trackpad",
+            "70W USB-C Power Adapter"
+        ],
+        "price": [
+            {
+                "type": "full-price",
+                "price": "RM 14,799.00"
+            },
+            {
+                "type": "monthly-price",
+                "price": "RM 616.63"
+            }
+        ]
+    },
+    {
+        "key": "16-inch-space-black-apple-m3-pro-with-12-core-cpu-and-18-core-gpu-18gb-memory-512gb",
+        "size": "16-inch",
+        "chip": "M3 Pro",
+        "variation": [
+            {
+                "colour": "Space Grey",
+                "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-spacegray-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830200"
+            },
+            {
+                "colour": "Silver",
+                "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-silver-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830269"
+            }
+        ],
+        "productbundle": [
+            "12-core CPU",
+            "18-core GPU",
+            "18GB Unified Memory",
+            "512GB SSD Storage¹"
+        ],
+        "specs": [
+            "16-inch Liquid Retina XDR display²",
+            "Three Thunderbolt / USB 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
+            "Magic Keyboard with Touch ID",
+            "Force Touch trackpad",
+            "140W USB-C Power Adapter"
+        ],
+        "price": [
+            {
+                "type": "full-price",
+                "price": "RM 11,999.00"
+            },
+            {
+                "type": "monthly-price",
+                "price": "RM 499.96"
+            }
+        ]
+    },
+    {
+        "key": "16-inch-space-black-apple-m3-pro-with-12-core-cpu-and-18-core-gpu-36gb-memory-512gb",
+        "size": "16-inch",
+        "chip": "M3 Pro",
+        "variation": [
+            {
+                "colour": "Space Grey",
+                "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-spacegray-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830200"
+            },
+            {
+                "colour": "Silver",
+                "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-silver-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830269"
+            }
+        ],
+        "productbundle": [
+            "12-core CPU",
+            "18-core GPU",
+            "36GB Unified Memory",
+            "512GB SSD Storage¹"
+        ],
+        "specs": [
+            "16-inch Liquid Retina XDR display²",
+            "Three Thunderbolt / USB 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
+            "Magic Keyboard with Touch ID",
+            "Force Touch trackpad",
+            "140W USB-C Power Adapter"
+        ],
+        "price": [
+            {
+                "type": "full-price",
+                "price": "RM 13,599.00"
+            },
+            {
+                "type": "monthly-price",
+                "price": "RM 566.63"
+            }
+        ]
+    },
+    {
+        "key": "16-inch-space-black-apple-m3-max-with-14-core-cpu-and-30-core-gpu-36gb-memory-1tb",
+        "size": "16-inch",
+        "chip": "M3 Max",
+        "variation": [
+            {
+                "colour": "Space Grey",
+                "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-spacegray-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830200"
+            },
+            {
+                "colour": "Silver",
+                "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-silver-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830269"
+            }
+        ],
+        "productbundle": [
+            "14-core CPU",
+            "30-core GPU",
+            "36GB Unified Memory",
+            "1TB SSD Storage¹"
+        ],
+        "specs": [
+            "16-inch Liquid Retina XDR display²",
+            "Three Thunderbolt / USB 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
+            "Magic Keyboard with Touch ID",
+            "Force Touch trackpad",
+            "140W USB-C Power Adapter"
+        ],
+        "price": [
+            {
+                "type": "full-price",
+                "price": "RM 15,999.00"
+            },
+            {
+                "type": "monthly-price",
+                "price": "RM 666.63"
+            }
+        ]
+    },
+    {
+        "key": "16-inch-space-black-apple-m3-max-with-16-core-cpu-and-40-core-gpu-48gb-memory-1tb",
+        "size": "16-inch",
+        "chip": "M3 Max",
+        "variation": [
+            {
+                "colour": "Space Grey",
+                "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-spacegray-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830200"
+            },
+            {
+                "colour": "Silver",
+                "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-silver-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830269"
+            }
+        ],
+        "productbundle": [
+            "16-core CPU",
+            "40-core GPU",
+            "48GB Unified Memory",
+            "1TB SSD Storage¹"
+        ],
+        "specs": [
+            "16-inch Liquid Retina XDR display²",
+            "Three Thunderbolt / USB 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
+            "Magic Keyboard with Touch ID",
+            "Force Touch trackpad",
+            "140W USB-C Power Adapter"
+        ],
+        "price": [
+            {
+                "type": "full-price",
+                "price": "RM 17,999.00"
+            },
+            {
+                "type": "monthly-price",
+                "price": "RM 749.96"
+            }
+        ]
+    }
+]
