@@ -120,7 +120,7 @@ export default function Select() {
                             <p>Power Adapter</p>
                             <p className="text-sm mb-6 text-blue-500">Which power adapter is right for you?</p>
                             {product?.powerAdapter?.map((pa, paIndex) =>
-                                <button disabled={!pa.inStock} key={"power-adapter" + paIndex} onClick={() => onClickPower(paIndex)} className={`border p-5 font-semibold rounded-lg mb-4 flex justify-between ${selectedPower === paIndex ? "border-blue-600 border-2" : ""}`}><span className={`${pa.inStock ? "" : "text-gray-300"}`}>{pa.label}</span><span className={`${pa.inStock ? "" : "text-gray-300"}`}>+ RM {pa.price.toFixed(2)}</span></button>
+                                <button disabled={!pa.inStock} key={"power" + paIndex} onClick={() => onClickPower(paIndex)} className={`border p-5 font-semibold rounded-lg mb-4 flex justify-between ${selectedPower === paIndex ? "border-blue-600 border-2" : ""}`}><span className={`${pa.inStock ? "" : "text-gray-300"}`}>{pa.label}</span><span className={`${pa.inStock ? "" : "text-gray-300"}`}>+ RM {pa.price.toFixed(2)}</span></button>
                             )}
                         </div>}
                         <div>

@@ -55,7 +55,7 @@ function Footer({ sitemap }: { sitemap: SiteMapDirectory[] | undefined }) {
             <section className={`border-b border-slate-900/10 ${GENERAL_MARGIN} font-normal text-xs text-zinc-500 leading-6`}>{footNotes.map((note, index) => (<p key={"note" + index} className="text-sm p-2">{note}</p>))}</section>
             <section className={`${GENERAL_MARGIN}`}>{renderBreadcrumb()}</section>
             <section className={`${GENERAL_MARGIN} grid grid-cols-1 md:grid-cols-5 grid-flow-column`}>{sitemap?.map((sm, key) =>
-            (<>
+            ([
                 <div key={"sitemap" + key} className="hidden md:block">
                     <h3 className="font-semibold text-sm">{sm.directory}</h3>
                     <ul className="">
@@ -63,8 +63,9 @@ function Footer({ sitemap }: { sitemap: SiteMapDirectory[] | undefined }) {
                             (<li key={"footer-dir" + index} className="text-zinc-500 text-sm">{section}</li>)
                         )}
                     </ul>
-                </div>
+                </div>,
                 <button
+                    key={"sitemap-btn" + key}
                     onClick={() => setExpandedAccordionIndex(idx => {
                         if (idx === key) {
                             return -1;
@@ -77,8 +78,10 @@ function Footer({ sitemap }: { sitemap: SiteMapDirectory[] | undefined }) {
                     <svg data-accordion-icon="" className="w-3 h-3 shrink-0 rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                         <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5 5 1 1 5"></path>
                     </svg>
-                </button>
-                <div className={`md:hidden ${expandedAccordionIndex === key ? "block" : "hidden"}`}>
+                </button>,
+                <div
+                    key={"sitemap-subdir" + key}
+                    className={`md:hidden ${expandedAccordionIndex === key ? "block" : "hidden"}`}>
                     <div className="px-5">
                         <ul className="py-2">
                             {sm.sections.map((section, index) =>
@@ -87,7 +90,7 @@ function Footer({ sitemap }: { sitemap: SiteMapDirectory[] | undefined }) {
                         </ul>
                     </div>
                 </div>
-            </>))}</section>
+            ].map(x => x)))}</section>
             <p className={`${GENERAL_MARGIN} py-4 text-sm text-zinc-500 leading-6`}>More ways to shop: <a className="text-blue-500 underline underline-offset-4">Find a retailer</a> near you. Or call 1800-80-6419</p>
             <div className={`${GENERAL_MARGIN} pt-5 lg:pt-10 lg:pb-28 border-spacing-2 border-t border-slate-200 sm:flex justify-between text-slate-500 flex flex-col lg:flex-row`}>
                 <p className="text-sm">Copyright © 2024 Apple Inc. All rights reserved.</p>

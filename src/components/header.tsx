@@ -21,7 +21,7 @@ function Header({ menus }: { menus: Directories | undefined }) {
                                                             <span className="text-xs">{section.directory}</span>
                                                             <div>
                                                                 {section.sections?.map((title, menuIndex) =>
-                                                                    <div>
+                                                                    <div key={"submenu" + menuIndex}>
                                                                         <span className={`${sectionIdx === 0 ? "font-bold text-lg" : "text-md"}`} key={"submenu" + menuIndex}>{title}</span>
                                                                     </div>)
                                                                 }
